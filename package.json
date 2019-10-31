@@ -4,8 +4,7 @@
   "description": "WEB API I Challenge",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js",
-    "start": "node index.js"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,6 @@
     "nodemon": "^1.19.4"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
     "knex": "^0.20.0",
     "sqlite3": "^4.1.0"
   }
